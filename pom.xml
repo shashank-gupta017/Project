@@ -357,7 +357,7 @@
                     <showWarnings>true</showWarnings>
                 </configuration>
             </plugin>
-            <plugin>
+           <!-- <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.13</version>
@@ -367,7 +367,7 @@
                     <!-- <argLine>-XX:-UseSplitVerifier ${jacoco.utAgentConfig}</argLine> -->
                     <!-- JDK 8 - bytecode verifier cannot be relaxed or disabled -->
                     <!-- to prevent runtime errors, OpenJPA tests are ignored -->
-                    <!-- <argLine>${jacoco.utAgentConfig}</argLine> -->
+                    <argLine>${jacoco.utAgentConfig}</argLine>
                     <includes>
                         <include>**/*Tests.java</include>
                     </includes>
@@ -380,7 +380,7 @@
                         </property>
                     </properties>
                 </configuration>
-            </plugin>
+            </plugin> -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
