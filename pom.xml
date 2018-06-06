@@ -493,11 +493,11 @@
                             </arguments>
                             <workingDirectory>${basedir}</workingDirectory>
                         </configuration>
-			<outputDirectory>target/classes</outputDirectory>
                     </plugin>
                 </plugins>
             </build>
         </profile>
     </profiles>
+
     <url>demopetclinic</url>
 </project>
