@@ -500,4 +500,7 @@
     </profiles>
 
     <url>demopetclinic</url>
+  <build>
+    <outputDirectory>target/classes</outputDirectory>
+  </build>
 </project>
